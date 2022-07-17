@@ -4,7 +4,7 @@ export default function NavBar(){
             <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
                 <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
               
-                <img src="https://imgur.com/Tfq4pRc.png" classNameName="w-60" alt="" />
+                <img src="https://imgur.com/Tfq4pRc.png" className="w-60" alt="" />
                 </a>
                 <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
                 <a href="#about" className="mr-5 hover:text-white hover:cursor-pointer hover:font-bold hover:items-center hover:bg-gradient-to-r hover:from-yellow-500 hover:via-yellow-400 hover:to-yellow-500 hover:border-0 hover:py-1 hover:px-3 hover:focus:outline-none transition delay-300">About Us</a>
