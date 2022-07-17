@@ -5,7 +5,7 @@ import Contact from "../../components/Contact";
 import ListingCard from "../../components/ListingCard";
 import LoadingPage from "../../components/LoadingPage";
 import NavBar from "../../components/Navbar";
-
+import NoSSR from "react-no-ssr";
 export default function MainPage(){
     let [loaded,setLoaded] = useState(false)
     useEffect(()=>{
@@ -26,13 +26,13 @@ export default function MainPage(){
                 <label htmlFor=""><i>Break Through the Reality</i></label>
             </div>
                <div className="right w-[48%] z-20 cursor-pointer hover:cursor-pointer ">
-                   <iframe src='https://my.spline.design/hammyveggieburgercopy-62bb3f5da933d78093724febbaaceac5/' frameBorder='0' width='100%' height='97%'></iframe>
+                   <NoSSR><iframe src='https://my.spline.design/hammyveggieburgercopy-62bb3f5da933d78093724febbaaceac5/' frameBorder='0' width='100%' height='97%'></iframe></NoSSR>
                </div>         
            </section>
 
            <section id="about" className="flex relative w-full h-[55vh]">
                 <div className="left w-[50%]">
-                <iframe src='https://my.spline.design/purple3diconscopy-a31b70878c52cfe9666f2326a213be01/' frameBorder='0' width='100%' height='100%'></iframe>
+                <NoSSR><iframe src='https://my.spline.design/purple3diconscopy-a31b70878c52cfe9666f2326a213be01/' frameBorder='0' width='100%' height='100%'></iframe></NoSSR>
                 </div>
                 <div className="right w-[50%] flex flex-col gap-3 justify-center items-center relative">
                     <h1 className="text-purple-600 text-6xl font-bold">About Us</h1>
@@ -48,7 +48,7 @@ export default function MainPage(){
            </section>
 
            <section className="flex relative w-full h-[55vh]">
-           <iframe src='https://my.spline.design/molang3dcopy-a643887916f1738b68b328783ede0547/' frameBorder='0' width='100%' height='100%'></iframe>
+           <NoSSR><iframe src='https://my.spline.design/molang3dcopy-a643887916f1738b68b328783ede0547/' frameBorder='0' width='100%' height='100%'></iframe></NoSSR>
            </section>
 
            <section id="team" className="flex flex-col relative justify-center items-center gap-10 mt-14">

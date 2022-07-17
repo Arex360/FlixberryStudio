@@ -12,6 +12,7 @@
     "next": "12.2.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-no-ssr": "^1.1.0",
     "react-spinners": "^0.13.3"
   },
   "devDependencies": {
