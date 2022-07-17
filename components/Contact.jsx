@@ -4,7 +4,7 @@ export default function Contact(){
     return (
         <div className="flex min-h-screen items-center justify-start  relative bg-gray-800 text-white">
 
-            <iframe  className="absolute left-[20%]" src='https://my.spline.design/roomrelaxingcopy-6ffe0b85fb0e23a9579f0905ce17ed44/' frameborder='0' width='80%' height='100%'></iframe>
+            <iframe  className="absolute left-[20%]" src='https://my.spline.design/roomrelaxingcopy-6ffe0b85fb0e23a9579f0905ce17ed44/' frameBorder='0' width='80%' height='100%'></iframe>
   <div className="mx-auto w-full max-w-lg z-50">
     <h1 className="text-4xl font-medium">Contact us</h1>
     <p className="mt-3">We also provide freelance services, feel free to contact us</p>
