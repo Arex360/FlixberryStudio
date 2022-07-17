@@ -1,16 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
 html,
 body {
   padding: 0;
   margin: 0;
+
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.main{
+  
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.main {
+  clip: rect(10px, 20px, 30px, 40px);
+}
+.game{
+  border-top-left-radius: 10%;
+  border-top-right-radius: 20%;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
 }
 
-* {
-  box-sizing: border-box;
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: grey ;
+  border-radius: 10px;
+}
+html {
+  scroll-behavior: smooth;
+}
+h1{
+  font-family: 'Lilita One', cursive;
 }
